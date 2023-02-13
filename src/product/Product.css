@@ -1,0 +1,40 @@
+.products .products-slider .wrapper .box {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    outline-offset: -1rem;
+    outline: 0.1rem solid rgba(0,0,0,0.1);;
+    box-shadow:  0 0.5rem 1.5rem rgba(0,0,0,0.1);
+  }
+  .heading{
+    color: black;
+    text-align: center;
+  }
+  .products span {
+    background: #FB7102;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+  }
+  .products .products-slider .box:hover {
+    outline-offset: 0;
+    outline: 0.2rem solid black;
+  }
+  .products .products-slider .box img {
+    height: 20rem;
+  }
+  .products .products-slider .box h3 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  .products .products-slider .box .price {
+    font-size: 2rem;
+    color: #666;
+  }
+  .products .products-slider .box .stars {
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+    color: #FB7102;
+  }
